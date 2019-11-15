@@ -33,6 +33,7 @@ CREATE TABLE IF NOT EXISTS `tbl_documentos` (
   `tamanio` int(10) unsigned DEFAULT NULL,
   `tipo` varchar(150) DEFAULT NULL,
   `nombre_archivo` varchar(255) DEFAULT NULL
+  `pdf` MEDIUMBLOB NULL DEFAULT NULL,
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;
 
 --
