@@ -15,7 +15,7 @@
                 <p>NO tiene archivos</p>
                 <?php
             } else {
-                header("Content-type: application/pdf ");
+                header("Content-type: application/pdf; charset=utf-8 ");
                 header("Content-Disposition: ");
                 ?>
                 <?php echo $datos['pdf']; ?>"></iframe>
